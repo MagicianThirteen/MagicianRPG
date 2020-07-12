@@ -1,0 +1,605 @@
+fileFormatVersion: 2
+guid: b2f00000110f845298b6ef4f455f0644
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 419636044538856524
+    second: Down_idle_0
+  - first:
+      213: 3772502446491005326
+    second: Down_idle_1
+  - first:
+      213: -3967933031580359122
+    second: Down_idle_2
+  - first:
+      213: -1153902169781862631
+    second: Down_idle_3
+  - first:
+      213: -8688738449896321137
+    second: Down_idle_4
+  - first:
+      213: 1636749804514265059
+    second: Down_idle_5
+  - first:
+      213: 6753197355655945455
+    second: Down_idle_6
+  - first:
+      213: -252287675563716889
+    second: Down_idle_7
+  - first:
+      213: 5122337587128070885
+    second: Down_idle_8
+  - first:
+      213: -6510723756142731977
+    second: Down_idle_9
+  - first:
+      213: -5679622860970268537
+    second: Down_idle_10
+  - first:
+      213: -7027368294601595883
+    second: Down_idle_11
+  - first:
+      213: -2428744203201958744
+    second: Down_idle_12
+  - first:
+      213: -8584161809672258056
+    second: Down_idle_13
+  - first:
+      213: -2604553301925668812
+    second: Down_idle_14
+  - first:
+      213: -2983901101766998010
+    second: Down_idle_15
+  - first:
+      213: 5121651292427292688
+    second: Down_idle_16
+  - first:
+      213: -5748217786522060027
+    second: Down_idle_17
+  - first:
+      213: 1827246059605852911
+    second: Down_idle_18
+  - first:
+      213: -3426719139322339322
+    second: Down_idle_19
+  - first:
+      213: -192169588027948571
+    second: Down_idle_20
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 300
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Down_idle_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3613
+        width: 428
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec434c4937c74fd48e16b05aa388d54
+      internalID: 419636044538856524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_1
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3613
+        width: 430
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ec475e5342942a6a0ee534b71d701a
+      internalID: 3772502446491005326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_2
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 3613
+        width: 428
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e99e31233cd6c4b1baa6675f15130ff4
+      internalID: -3967933031580359122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_3
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 3613
+        width: 430
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7d737502d2e4872870c018a0e25f58
+      internalID: -1153902169781862631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3133
+        width: 428
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dd68799ddb9d48299d2c9a63ab190b3
+      internalID: -8688738449896321137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_5
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 3133
+        width: 430
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf09d89d7dca4756aea16de562bbf78
+      internalID: 1636749804514265059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_6
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 3133
+        width: 426
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd18aac79e474221927870c3ce85fc3
+      internalID: 6753197355655945455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 3133
+        width: 430
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc88431dc2f4bbbb9ca0b71cc43f1a
+      internalID: -252287675563716889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2651
+        width: 428
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72dab9b902646464f815e66cd4773381
+      internalID: 5122337587128070885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_9
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2651
+        width: 430
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca18804f5d71d4f13a2378dcf1327f16
+      internalID: -6510723756142731977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_10
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 2651
+        width: 428
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27f252cf1eab34fd2bce61b84ea83002
+      internalID: -5679622860970268537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_11
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2651
+        width: 430
+        height: 460
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c90415faec234d66a15e2882f733415
+      internalID: -7027368294601595883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 2171
+        width: 428
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37148f690f0245b5a8c54b0387b7f42
+      internalID: -2428744203201958744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_13
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 2171
+        width: 430
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202350ea3ddd24290a4b9edaa1c27e0e
+      internalID: -8584161809672258056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_14
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 2171
+        width: 428
+        height: 470
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e824127e54964355aa94a2f2f6d5d0b
+      internalID: -2604553301925668812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 2171
+        width: 430
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9515260c1f4024980bcd585bec363d48
+      internalID: -2983901101766998010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_16
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1689
+        width: 426
+        height: 472
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6110389685a462790b532a2979f293
+      internalID: 5121651292427292688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_17
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1689
+        width: 430
+        height: 468
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be253dfbabe3424b8e404236425f4c3
+      internalID: -5748217786522060027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_18
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 1689
+        width: 428
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fea74dcd332184cd3bab3e908eb8b4c9
+      internalID: 1827246059605852911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_19
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1689
+        width: 430
+        height: 464
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f819ce366029e44fd90f0671f5b4cfd3
+      internalID: -3426719139322339322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Down_idle_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1207
+        width: 428
+        height: 462
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740f93b913285448ebc7f3d0713ae7bb
+      internalID: -192169588027948571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 31892f618717748928922a9768fea0c6
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
