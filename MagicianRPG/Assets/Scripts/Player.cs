@@ -7,7 +7,7 @@ public class Player : Character
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -36,7 +36,7 @@ public class Player : Character
         }
         if (Input.GetKey(KeyCode.D))
         {
-            direction += Vector2.right;
+            direction += Vector2.right;//（这个等价与Vector2(1, 0)
         }
     }
 }
