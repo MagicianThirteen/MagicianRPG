@@ -33,8 +33,11 @@ public abstract class Character : MonoBehaviour
     {
        
         transform.Translate(direction * speed * Time.deltaTime);
+        
+        
         AnimateMovement(direction);
         
+
     }
 
     /// <summary>
@@ -47,9 +50,19 @@ public abstract class Character : MonoBehaviour
         {
             Debug.Log("animator组件没获取");
         }
-        
-        animator.SetFloat("x", direction.x);
-        animator.SetFloat("y", direction.y);
-    }  
-    
+        if (direction.x != 0 || direction.y != 0)//行动时
+        {
+            animator.SetLayerWeight(1, 1);//将walklayer层设置称权重1，主要播放行走动画
+            animator.SetFloat("x", direction.x);
+            animator.SetFloat("y", direction.y);
+        }
+        else//不动时
+        {
+            animator.SetLayerWeight(1, 0);//不动时，x，y为0，将idlelayer层设置成权重1，主要播放静止动画
+
+        }
+
+
+    }
+
 }
