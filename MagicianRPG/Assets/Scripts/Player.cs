@@ -20,7 +20,7 @@ public class Player : Character
 
     public void GetInput()
     {
-        direction = Vector2.zero;
+        direction = Vector2.zero;//这句不加，方向就会一直是上下左右，停不下来
         if (Input.GetKey(KeyCode.W))//getkey表示一直按着键
         {
             direction += Vector2.up;//这里用direction=Vector2.up似乎也一样？

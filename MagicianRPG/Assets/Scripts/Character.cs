@@ -9,20 +9,26 @@ public abstract class Character : MonoBehaviour
     [SerializeField]//让私有变量也能在面板里看到
     private float speed;
     protected Vector2 direction;//要走的方向
-    protected Animator animator;//动画组件
+    private Animator animator;//动画组件
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();//不要把获取组件放到start中，这样会报空错，没有获取该组件
+    }
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
-        direction = Vector2.zero;
+        
     }
 
     // Update is called once per frame
     protected virtual void Update()
     {
-        Move();//控制位移
+        Move();
     }
 
+    /// <summary>
+    /// 控制位移
+    /// </summary>
     public void Move()
     {
        
@@ -31,12 +37,18 @@ public abstract class Character : MonoBehaviour
         
     }
 
+    /// <summary>
+    /// 角色行走的动画控制，脸朝正确方向
+    /// </summary>
+    /// <param name="direction">依靠传入的方向获取x，y的值</param>
     public void AnimateMovement(Vector2 direction)
     {
-
+        if (animator == null)
+        {
+            Debug.Log("animator组件没获取");
+        }
         animator.SetFloat("x", direction.x);
         animator.SetFloat("y", direction.y);
-    }
-
+    }  
     
 }
