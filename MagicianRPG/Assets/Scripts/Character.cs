@@ -47,6 +47,7 @@ public abstract class Character : MonoBehaviour
         {
             Debug.Log("animator组件没获取");
         }
+        
         animator.SetFloat("x", direction.x);
         animator.SetFloat("y", direction.y);
     }  
