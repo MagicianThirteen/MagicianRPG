@@ -581,6 +581,7 @@ GameObject:
   - component: {fileID: 1926993802}
   - component: {fileID: 1926993804}
   - component: {fileID: 1926993803}
+  - component: {fileID: 1926993805}
   m_Layer: 5
   m_Name: Health
   m_TagString: Untagged
@@ -644,6 +645,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1926993801}
   m_CullTransparentMesh: 0
+--- !u!114 &1926993805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1926993801}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f571e11ce334dbf95f2fd9f78f917a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lerpspeed: 0.5
 --- !u!1 &1959800428
 GameObject:
   m_ObjectHideFlags: 0
@@ -655,6 +669,7 @@ GameObject:
   - component: {fileID: 1959800429}
   - component: {fileID: 1959800431}
   - component: {fileID: 1959800430}
+  - component: {fileID: 1959800432}
   m_Layer: 5
   m_Name: Mana
   m_TagString: Untagged
@@ -718,6 +733,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959800428}
   m_CullTransparentMesh: 0
+--- !u!114 &1959800432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959800428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97f571e11ce334dbf95f2fd9f78f917a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lerpspeed: 0.5
 --- !u!1 &1969606752
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,5 +917,15 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5964914534872752967, guid: ffe43c97f2446428e89bebb8455b0094,
+        type: 3}
+      propertyPath: hpStat
+      value: 
+      objectReference: {fileID: 1926993805}
+    - target: {fileID: 5964914534872752967, guid: ffe43c97f2446428e89bebb8455b0094,
+        type: 3}
+      propertyPath: manaStat
+      value: 
+      objectReference: {fileID: 1959800432}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffe43c97f2446428e89bebb8455b0094, type: 3}

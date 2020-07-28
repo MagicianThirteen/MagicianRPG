@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class Player : Character
 {
+    [SerializeField]
+    private Stat hpStat;
+    [SerializeField]
+    private Stat manaStat;
     // Start is called before the first frame update
     void Start()
     {
-       
+        //初始化血量
+        hpStat.InitValue(100, 100);
     }
 
     // Update is called once per frame
@@ -20,6 +25,7 @@ public class Player : Character
 
     public void GetInput()
     {
+        
         direction = Vector2.zero;//这句不加，方向就会一直是上下左右，停不下来
         if (Input.GetKey(KeyCode.W))//getkey表示一直按着键
         {
