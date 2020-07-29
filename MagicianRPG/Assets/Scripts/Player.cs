@@ -9,8 +9,9 @@ public class Player : Character
     [SerializeField]
     private Stat manaStat;
     // Start is called before the first frame update
-    void Start()
+    protected override void Start()
     {
+        base.Start();
         //初始化血量
         hpStat.InitValue(100, 100);
     }

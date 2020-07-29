@@ -15,7 +15,7 @@ public abstract class Character : MonoBehaviour
         animator = GetComponent<Animator>();//不要把获取组件放到start中，这样会报空错，没有获取该组件
     }
 
-    private void Start()
+    protected virtual void Start()
     {
         
     }
