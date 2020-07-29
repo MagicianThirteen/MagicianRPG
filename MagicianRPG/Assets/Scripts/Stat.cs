@@ -11,6 +11,9 @@ public class Stat : MonoBehaviour
     private float currentValue=100;//当前填充值的值
     private float maxValue=100 ;//最大填充值
     private float currentFillAmount=1;//初时的填充百分比设置成1
+    //在条上显示如“100/100”的数值
+    [SerializeField]
+    private Text statTxt;
     public float CurrentValue {
 
         get {
@@ -32,6 +35,8 @@ public class Stat : MonoBehaviour
 
             //计算当前填充的百分比
             currentFillAmount = currentValue / maxValue;
+            //给要显示的数值赋值
+            statTxt.text = currentValue + " / " + maxValue;
         }
     }
 
