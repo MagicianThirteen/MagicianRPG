@@ -10,11 +10,18 @@ public abstract class Character : MonoBehaviour
     private float speed;
     protected Vector2 direction;//要走的方向
     private Animator animator;//动画组件
-    private Rigidbody2D rigidbody2D;//刚体组件，用刚体控制移动
+    private Rigidbody2D myRigidbody2D;//刚体组件，用刚体控制移动
+    public bool IsMoving //判断是否移动了。
+    {
+        get
+        {
+            return direction.x != 0 || direction.y != 0;
+        }
+    }
     private void Awake()
     {
         animator = GetComponent<Animator>();//不要把获取组件放到start中，这样会报空错，没有获取该组件
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        myRigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     protected virtual void Start()
@@ -40,8 +47,8 @@ public abstract class Character : MonoBehaviour
     public void Move()
     {
 
-        //用物理引擎做移动
-        rigidbody2D.velocity = direction * speed;
+        //用物理引擎做移动,且把方向归一化，这样当两个按键按下时，不会叠加向量数值，使其更快，都是方向都以1个单位移动
+        myRigidbody2D.velocity = direction.normalized * speed;
 
     }
 
@@ -55,14 +62,15 @@ public abstract class Character : MonoBehaviour
         {
             Debug.Log("animator组件没获取");
         }
-        if (direction.x != 0 || direction.y != 0)//行动时
+        if (IsMoving)//行动时
         {
-            animator.SetLayerWeight(1, 1);//将walklayer层设置称权重1，主要播放行走动画
-            
+            ActivateLayer("WalkLayer");//将walklayer层设置称权重1，主要播放行走动画
+
+
         }
         else//不动时
         {
-            animator.SetLayerWeight(1, 0);//不动时，x，y为0，将idlelayer层设置成权重1，主要播放静止动画
+            ActivateLayer("IdleLayer");//不动时，x，y为0，将idlelayer层设置成权重1，主要播放静止动画
             
 
         }
@@ -71,6 +79,20 @@ public abstract class Character : MonoBehaviour
         animator.SetFloat("y", direction.y);
 
 
+    }
+
+    /// <summary>
+    /// 改变动画层方法
+    /// </summary>
+    /// <param name="layerName">动画层名字</param>
+    public void ActivateLayer(string layerName)
+    {
+        //当一个动画层启动时，其它动画层的权重设置为0
+        for(int i = 0; i < animator.layerCount; i++)
+        {
+            animator.SetLayerWeight(i, 0);
+        }
+        animator.SetLayerWeight(animator.GetLayerIndex(layerName), 1);
     }
 
 }
