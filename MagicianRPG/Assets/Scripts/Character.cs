@@ -10,9 +10,11 @@ public abstract class Character : MonoBehaviour
     private float speed;
     protected Vector2 direction;//要走的方向
     private Animator animator;//动画组件
+    private Rigidbody2D rigidbody2D;//刚体组件，用刚体控制移动
     private void Awake()
     {
         animator = GetComponent<Animator>();//不要把获取组件放到start中，这样会报空错，没有获取该组件
+        rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     protected virtual void Start()
@@ -23,6 +25,12 @@ public abstract class Character : MonoBehaviour
     // Update is called once per frame
     protected virtual void Update()
     {
+        
+        AnimateMovement(direction);
+    }
+
+    private void FixedUpdate()//用物理引擎做移动所以在fixedupdate中调用
+    {
         Move();
     }
 
@@ -31,12 +39,9 @@ public abstract class Character : MonoBehaviour
     /// </summary>
     public void Move()
     {
-       
-        transform.Translate(direction * speed * Time.deltaTime);
-        
-        
-        AnimateMovement(direction);
-        
+
+        //用物理引擎做移动
+        rigidbody2D.velocity = direction * speed;
 
     }
 
