@@ -26,7 +26,8 @@ public abstract class Character : MonoBehaviour
 
     protected virtual void Start()
     {
-        
+        Debug.Log(direction.x + "X");
+        Debug.Log(direction.y + "y");
     }
 
     // Update is called once per frame
@@ -65,6 +66,10 @@ public abstract class Character : MonoBehaviour
         if (IsMoving)//行动时
         {
             ActivateLayer("WalkLayer");//将walklayer层设置称权重1，主要播放行走动画
+            animator.SetFloat("x", direction.x);
+            animator.SetFloat("y", direction.y);
+            Debug.Log(direction.x + "X");
+            Debug.Log(direction.y + "y");
 
 
         }
@@ -75,8 +80,7 @@ public abstract class Character : MonoBehaviour
 
         }
 
-        animator.SetFloat("x", direction.x);
-        animator.SetFloat("y", direction.y);
+        
 
 
     }

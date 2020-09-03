@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 472}
   m_MaxSize: {x: 18004, y: 14044}
   vertical: 0
-  controlID: 1668
+  controlID: 9480
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 472}
   m_MaxSize: {x: 14004, y: 14044}
   vertical: 1
-  controlID: 1669
+  controlID: 9481
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -155,7 +155,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4022}
   vertical: 0
-  controlID: 1670
+  controlID: 9482
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -419,15 +419,17 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: -3841751183959426801, guid: 4bb6b2496bbf34d6780d2c7633241aa8, type: 2}
     - {fileID: -4297483337752569483, guid: 4bb6b2496bbf34d6780d2c7633241aa8, type: 2}
+    - {fileID: 3512314052720624352, guid: 4bb6b2496bbf34d6780d2c7633241aa8, type: 2}
+    - {fileID: -2463141812181119686, guid: 4bb6b2496bbf34d6780d2c7633241aa8, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.686561
+    - e00: 0.91481185
       e01: 0
       e02: 0
-      e03: -54.39322
+      e03: 105.551704
       e10: 0
-      e11: 0.686561
+      e11: 0.91481185
       e12: 0
-      e13: 75.22237
+      e13: 167.13397
       e20: 0
       e21: 0
       e22: 1
@@ -436,14 +438,46 @@ MonoBehaviour:
       e31: 0
       e32: 0
       e33: 1
-    - e00: 0.49834597
+    - e00: 0.40682238
       e01: 0
       e02: 0
-      e03: -9.852325
+      e03: 146.937
       e10: 0
-      e11: 0.49834597
+      e11: 0.40682238
       e12: 0
-      e13: 125.649895
+      e13: 169.76512
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1.1108787
+      e01: 0
+      e02: 0
+      e03: -62.761505
+      e10: 0
+      e11: 1.1108787
+      e12: 0
+      e13: 51.0251
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 1
+      e01: 0
+      e02: 0
+      e03: -28.25
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 58.5
       e20: 0
       e21: 0
       e22: 1
@@ -494,7 +528,7 @@ MonoBehaviour:
   m_MinSize: {x: 434, y: 272}
   m_MaxSize: {x: 14004, y: 10022}
   vertical: 0
-  controlID: 1620
+  controlID: 9430
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -586,19 +620,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Animations/Player
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Animations/Player
   m_LastFoldersGridSize: 16
   m_LastProjectPath: "/Users/Magician/Documents/GitHub/\u6211\u7684rpg/MagicianRPG"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 342f0000
-    m_LastClickedID: 12084
+    m_SelectedIDs: 522d0000
+    m_LastClickedID: 11602
     m_ExpandedIDs: 00000000f8280000c22b0000782c00005a2d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -652,8 +686,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1e260000
-    m_LastClickedInstanceID: 9758
+    m_SelectedInstanceIDs: 2a3000002c3000002e30000030300000ccf2ffff804affff7e4affff7c4affff
+    m_LastClickedInstanceID: -46468
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c62300007c3a00000a3d00003e2e0000be2c0000f6280000
     m_RenameOverlay:
@@ -727,8 +761,8 @@ MonoBehaviour:
     y: 0
     width: 284
     height: 805
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 72}
+  m_MaxSize: {x: 4002, y: 4022}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
