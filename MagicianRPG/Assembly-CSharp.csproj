@@ -66,6 +66,7 @@
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Stat.cs" />
+    <Compile Include="Assets\TestSort.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/Magician/Documents/GitHub/我的rpg/MagicianRPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
